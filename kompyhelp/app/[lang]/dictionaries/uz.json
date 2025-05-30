@@ -1,0 +1,133 @@
+{
+  "common": {
+    "allRightsReserved": "Barcha huquqlar himoyalangan.",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "dashboard": "Boshqaruv paneli",
+    "logout": "Chiqish",
+    "language": "Til",
+    "profile": "Profil",
+    "welcome": "Xush kelibsiz"
+  },
+  "navigation": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "knowledgeBase": "Bilimlar bazasi",
+    "contact": "Aloqa",
+    "shop": "Do'kon",
+    "services": "Xizmatlar"
+  },
+  "home": {
+    "title": "Kompyuter muammolaringizni biz bilan hal qiling.",
+    "subtitle": "Shaxslar va biznes uchun professional kompyuter ta'mirlash va IT yordam xizmatlari",
+    "getStarted": "Yordam olish",
+    "learnMore": "Bilimlar bazasini ko'rish",
+    "howItWorks": "Qanday ishlaydi",
+    "whyChooseUs": "Nima uchun bizni tanlaysiz",
+    "testimonials": "Mijozlarimiz fikri",
+    "services": "Bizning xizmatlar"
+  },
+  "services": {
+    "individual": "Shaxsiy kompyuter ta'mirlash",
+    "business": "Biznes IT yordam",
+    "parts": "Ehtiyot qismlarni almashtirish",
+    "delivery": "Uyga yetkazib berish"
+  },
+  "shop": {
+    "title": "Kompyuter ehtiyot qismlari va aksessuarlar",
+    "subtitle": "Yuqori sifatli kompyuter qismlari va aksessuarlarini xarid qiling",
+    "searchPlaceholder": "Mahsulotlarni qidirish...",
+    "categories": "Kategoriyalar",
+    "all": "Barchasi",
+    "processors": "Protsessorlar",
+    "memory": "Xotira",
+    "storage": "Saqlash qurilmalari",
+    "graphics": "Video kartalar",
+    "accessories": "Aksessuarlar",
+    "addToCart": "Savatga qo'shish",
+    "cart": "Savat",
+    "cartEmpty": "Savat bo'sh",
+    "total": "Jami",
+    "checkout": "To'lov",
+    "quantity": "Miqdor",
+    "remove": "O'chirish",
+    "inStock": "Mavjud",
+    "outOfStock": "Tugagan",
+    "price": "Narx",
+    "from": "dan"
+  },
+  "howItWorks": {
+    "step1Title": "So'rov yuboring",
+    "step1Desc": "Muammoni batafsil tasvirlang",
+    "step2Title": "Tashrif vaqtini belgilang",
+    "step2Desc": "Xizmat uchun qulay vaqtni tanlang",
+    "step3Title": "Biz tuzatamiz",
+    "step3Desc": "Qurilmangizni ishchi holatda qaytarib oling"
+  },
+  "whyChooseUs": {
+    "service24h": "24 soatlik xizmat",
+    "reliableTechs": "Ishonchli texniklar",
+    "realTimeUpdates": "Real vaqt yangilanishlari",
+    "easyPricing": "Shaffof narxlash",
+    "multiLanguage": "Uch tilda xizmat"
+  },
+  "auth": {
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "confirmPassword": "Parolni tasdiqlang",
+    "name": "To'liq ism",
+    "role": "Hisob turi",
+    "individual": "Shaxsiy",
+    "business": "Biznes",
+    "signIn": "Kirish",
+    "signUp": "Ro'yxatdan o'tish",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "noAccount": "Hisobingiz yo'qmi?",
+    "hasAccount": "Hisobingiz bormi?"
+  },
+  "customer": {
+    "newRequest": "Yangi so'rov",
+    "myRequests": "Mening so'rovlarim",
+    "appointments": "Uchrashuvlar",
+    "knowledgeBase": "Bilimlar bazasi",
+    "profile": "Mening profilim",
+    "quoteEstimator": "Narx hisoblash",
+    "feedback": "Fikr-mulohaza",
+    "requestsDescription": "So'rovlaringizni ko'ring va boshqaring",
+    "appointmentsDescription": "Uchrashuvlaringizni ko'ring va boshqaring",
+    "noRequests": "Sizda hali so'rovlar yo'q",
+    "noAppointments": "Sizda hali uchrashuvlar yo'q"
+  },
+  "admin": {
+    "requests": "Barcha so'rovlar",
+    "inventory": "Inventar",
+    "technicians": "Texniklar",
+    "analytics": "Tahlillar",
+    "knowledgeManagement": "Bilimlar boshqaruvi",
+    "users": "Foydalanuvchilar",
+    "scheduler": "Jadval tuzuvchi",
+    "feedback": "Fikr-mulohazalar",
+    "dashboard": "Admin boshqaruv paneli",
+    "requestsDescription": "Barcha so'rovlarni ko'ring va boshqaring",
+    "techniciansDescription": "Texniklarni ko'ring va boshqaring",
+    "noRequests": "Hali so'rovlar yo'q",
+    "noTechnicians": "Hali texniklar yo'q"
+  },
+  "request": {
+    "title": "Sarlavha",
+    "description": "Tavsif",
+    "status": "Holat",
+    "priority": "Muhimlik",
+    "estimatedCost": "Taxminiy narx",
+    "submit": "Yuborish",
+    "cancel": "Bekor qilish",
+    "update": "Yangilash",
+    "delete": "O'chirish"
+  },
+  "knowledgeBase": {
+    "search": "Maqolalarni qidirish...",
+    "all": "Hammasi",
+    "readMore": "Batafsil",
+    "noResults": "Maqolalar topilmadi. Boshqa so'rov bilan urinib ko'ring."
+  }
+}

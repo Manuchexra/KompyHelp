@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 270 95% 60%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 270 80% 96%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 270 70% 90%;
+    --input: 270 70% 90%;
+    --ring: 270 95% 60%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 270 95% 75%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 270 80% 20%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 270 70% 30%;
+    --input: 270 70% 30%;
+    --ring: 270 95% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Responsive typography */
+  h1 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl font-bold;
+  }
+
+  p {
+    @apply text-base md:text-lg;
+  }
+
+  /* Improved touch targets for mobile */
+  button,
+  .button,
+  a.button,
+  [role="button"] {
+    @apply min-h-[44px] px-4;
+  }
+
+  /* Improved spacing for mobile */
+  .container {
+    @apply px-4 md:px-6;
+  }
+
+  .section {
+    @apply py-10 md:py-16 lg:py-20;
+  }
+
+  /* Mobile-first grid adjustments */
+  .grid-responsive {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6;
+  }
+
+  /* Mobile navigation improvements */
+  .mobile-nav {
+    @apply fixed inset-0 z-50 bg-background/95 backdrop-blur-sm;
+  }
+
+  /* Improved scrolling on mobile */
+  .scroll-container {
+    @apply overflow-x-auto scrollbar-thin scrollbar-thumb-primary/10 scrollbar-track-transparent pb-2;
+  }
+
+  /* Better form elements on mobile */
+  input,
+  select,
+  textarea {
+    @apply text-base md:text-sm;
+  }
+
+  /* Improved card layouts for mobile */
+  .card-mobile-friendly {
+    @apply flex flex-col h-full;
+  }
+
+  .card-mobile-friendly .card-content {
+    @apply flex-grow;
+  }
+
+  /* Responsive images */
+  .img-responsive {
+    @apply w-full h-auto object-cover;
+  }
+
+  /* Responsive tables */
+  .table-responsive {
+    @apply w-full overflow-x-auto;
+  }
+
+  .table-responsive table {
+    @apply min-w-full;
+  }
+}
