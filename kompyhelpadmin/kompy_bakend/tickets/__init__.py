@@ -1,0 +1,1 @@
+# Tickets app initialization
